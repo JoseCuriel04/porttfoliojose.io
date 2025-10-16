@@ -1,0 +1,33 @@
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.language-switcher button {
+  background: transparent;
+  border: none;
+  color: var(--text-light);
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.language-switcher button:hover {
+  color: var(--primary-color);
+  background: rgba(85, 230, 165, 0.1);
+}
+
+.language-switcher button.active {
+  color: var(--primary-color);
+  background: rgba(85, 230, 165, 0.2);
+}
+
+.language-switcher .divider {
+  color: var(--text-light);
+  font-size: 14px;
+}
