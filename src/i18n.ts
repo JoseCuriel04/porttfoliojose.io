@@ -41,6 +41,10 @@ const resources = {
       "Live Demo": "Live Demo",
       "More Info": "More Info",
 
+      // Tools
+      "My Tools": "My Tools",
+      "Tools I Use": "Tools I Use",
+
       // Contact
       "Let's Work Together": "Let's Work Together",
       "Your Name": "Your Name",
@@ -48,6 +52,7 @@ const resources = {
       "Subject": "Subject",
       "Your Message": "Your Message",
       "Send Message": "Send Message",
+
 
       // Footer
       "All rights reserved": "All rights reserved"
@@ -92,6 +97,9 @@ const resources = {
       // En la sección 'es'
       "Live Demo": "Demo en Vivo",
       "More Info": "Más Info",
+      // Tools
+      "My Tools": "Mis Herramientas",
+      "Tools I Use": "Herramientas que Uso",
 
       // Contact
       "Let's Work Together": "Trabajemos Juntos",

@@ -6,6 +6,7 @@ import { Contact } from './components/Contact/Contact';
 import { Footer } from './components/Footer/Footer';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import './App.css';
+import { ToolsIUse } from './components/ToolsIUse/ToolsIUse';
 
 function App() {
   return (
@@ -14,8 +15,10 @@ function App() {
       <Hero />
       <Skills />
       <Projects />
+      <ToolsIUse />
       <Contact />
       <Footer />
+      
     </>
   );
 }
