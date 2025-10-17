@@ -7,6 +7,9 @@ import { Footer } from './components/Footer/Footer';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import './App.css';
 import { ToolsIUse } from './components/ToolsIUse/ToolsIUse';
+import { Certifications } from './components/Certifications/Certifications';
+import { Services } from './components/Services/Services';
+import { GitHubStats } from './components/GitHubStats/GitHubStats';
 
 function App() {
   return (
@@ -16,9 +19,12 @@ function App() {
       <Skills />
       <Projects />
       <ToolsIUse />
+      <Certifications />
+      <Services />
+      <GitHubStats />
       <Contact />
       <Footer />
-      
+
     </>
   );
 }
