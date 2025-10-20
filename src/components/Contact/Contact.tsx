@@ -1,25 +1,29 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import './Contact.css';
 
 export const Contact = () => {
   const { t } = useTranslation();
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [success, setSuccess] = useState('');
-  const [error, setError] = useState('');
+  const [message, setMessage] = useState({ text: '', type: '' }); // 'success' o 'error'
+  const formRef = useRef<HTMLFormElement>(null);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    // Limpiar mensajes previos
+    setMessage({ text: '', type: '' });
+
+    if (isSubmitting) return;
+
     setIsSubmitting(true);
-    setSuccess('');
-    setError('');
 
     const formData = new FormData(e.currentTarget);
     const data = {
       name: formData.get('name'),
       email: formData.get('email'),
       subject: formData.get('subject'),
-      message: formData.get('message'),
+      message: formData.get('message')
     };
 
     try {
@@ -27,18 +31,27 @@ export const Contact = () => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Accept': 'application/json',
+          'Accept': 'application/json'
         },
-        body: JSON.stringify(data),
+        body: JSON.stringify(data)
       });
+
       if (response.ok) {
-        setSuccess(t('Message sent successfully! I will contact you soon.'));
-        e.currentTarget.reset();
+        setMessage({
+          text: t('Message sent successfully! I will contact you soon.'),
+          type: 'success'
+        });
+        if (formRef.current) {
+          formRef.current.reset();
+        }
       } else {
         throw new Error('Error sending message');
       }
     } catch (err) {
-      setError(t('There was an error sending the message. Please try again or send an email directly to joselcl04@gmail.com'));
+      setMessage({
+        text: t('There was an error sending the message. Please try again or send an email directly to joselcl04@gmail.com'),
+        type: 'error'
+      });
     } finally {
       setIsSubmitting(false);
     }
@@ -52,10 +65,13 @@ export const Contact = () => {
           <h2>{t("Let's Work Together")}</h2>
         </div>
 
-        {success && <div className="alert success">{success}</div>}
-        {error && <div className="alert error">{error}</div>}
+        {message.text && (
+          <div className={`alert ${message.type}`}>
+            {message.text}
+          </div>
+        )}
 
-        <form className="contact-form" onSubmit={handleSubmit}>
+        <form className="contact-form" onSubmit={handleSubmit} ref={formRef}>
           <div className="form-group">
             <input type="text" name="name" placeholder={t("Your Name")} required />
           </div>
@@ -76,7 +92,7 @@ export const Contact = () => {
         <div className="contact-info">
           <div className="contact-item">
             <i className="fab fa-linkedin"></i>
-            <a href="www.linkedin.com/in/jose-luis-curiel-lopez-8b0932374" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://linkedin.com/in/jose-luis-curiel" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
           <div className="contact-item">
             <i className="fas fa-envelope"></i>
