@@ -9,7 +9,7 @@ const resources = {
       "Skills": "Skills",
       "Projects": "Projects",
       "Contact": "Contact",
-
+      
       // Hero
       "Hello, my name is": "Hello, my name is",
       "Jose Luis": "Jose Luis",

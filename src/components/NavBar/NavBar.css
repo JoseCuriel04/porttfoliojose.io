@@ -1,4 +1,4 @@
-/* Estilos para la barra de navegación */
+/* NavBar.css */
 nav {
   position: fixed;
   top: 0;
@@ -15,14 +15,15 @@ nav .container {
   justify-content: space-between;
   align-items: center;
   height: 70px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-/* Estilos para el logo */
 .logo {
   display: flex;
   align-items: center;
   height: 100%;
-  padding: 0 10px;
 }
 
 .logo img {
@@ -36,10 +37,9 @@ nav .container {
   transform: scale(1.05);
 }
 
-/* Estilos para el menú */
 .nav-links {
   display: flex;
-  gap: 30px;
+  gap: 20px;
   list-style: none;
 }
 
@@ -48,13 +48,15 @@ nav .container {
   text-decoration: none;
   transition: color 0.3s;
   font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 5px;
 }
 
 .nav-links a:hover {
   color: var(--primary-color);
+  background: rgba(85, 230, 165, 0.1);
 }
 
-/* Estilos para el botón del menú móvil */
 .menu-toggle {
   display: none;
   background: none;
@@ -64,10 +66,14 @@ nav .container {
   cursor: pointer;
 }
 
-/* Estilos responsivos */
 @media (max-width: 1024px) {
-  .logo img {
-    height: 45px;
+  .nav-links {
+    gap: 15px;
+  }
+
+  .nav-links a {
+    padding: 8px 10px;
+    font-size: 14px;
   }
 }
 
@@ -81,16 +87,24 @@ nav .container {
     top: 70px;
     right: -100%;
     width: 70%;
+    max-width: 300px;
     height: calc(100vh - 70px);
     background: var(--bg-card);
     flex-direction: column;
-    padding: 30px;
+    padding: 30px 20px;
     transition: right 0.3s;
     border-left: 1px solid rgba(85, 230, 165, 0.1);
+    gap: 15px;
   }
 
   .nav-links.active {
     right: 0;
+  }
+
+  .nav-links a {
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
   }
 
   .logo img {
@@ -100,15 +114,5 @@ nav .container {
   nav .container {
     height: 60px;
     padding: 0 15px;
-  }
-}
-
-@media (max-width: 480px) {
-  .logo img {
-    height: 35px;
-  }
-
-  nav .container {
-    height: 50px;
   }
 }
