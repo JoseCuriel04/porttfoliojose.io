@@ -92,7 +92,7 @@ export const Contact = () => {
         <div className="contact-info">
           <div className="contact-item">
             <i className="fab fa-linkedin"></i>
-            <a href="https://linkedin.com/in/jose-luis-curiel" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/jose-luis-curiel-lopez-8b0932374?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
           <div className="contact-item">
             <i className="fas fa-envelope"></i>

@@ -9,7 +9,7 @@ export const Footer = () => {
     <footer>
       <div className="container">
         <div className="social-links">
-          <a href="www.linkedin.com/in/jose-luis-curiel-lopez-8b0932374" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/jose-luis-curiel-lopez-8b0932374?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FaLinkedinIn />
           </a>
           <a href="https://github.com/JoseCuriel04" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
