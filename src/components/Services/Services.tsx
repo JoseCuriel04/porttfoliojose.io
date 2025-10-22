@@ -13,17 +13,17 @@ export const Services = () => {
         {
           name: t("Basic Package"),
           description: t("Single-page application with basic features."),
-          price: "$500 - $1000"
+          
         },
         {
           name: t("Standard Package"),
           description: t("Multi-page application with advanced features and database integration."),
-          price: "$1000 - $2500"
+          
         },
         {
           name: t("Premium Package"),
           description: t("Full-stack application with custom design, advanced features, and deployment."),
-          price: "$2500+"
+          
         }
       ]
     },
@@ -35,17 +35,17 @@ export const Services = () => {
         {
           name: t("Basic Package"),
           description: t("Simple mobile app with basic features."),
-          price: "$800 - $1500"
+          
         },
         {
           name: t("Standard Package"),
           description: t("Mobile app with advanced features and API integration."),
-          price: "$1500 - $3000"
+          
         },
         {
           name: t("Premium Package"),
           description: t("Full-featured mobile app with custom design, advanced features, and deployment."),
-          price: "$3000+"
+          
         }
       ]
     },
@@ -57,17 +57,17 @@ export const Services = () => {
         {
           name: t("Basic Package"),
           description: t("Basic UI/UX design for a single-page application."),
-          price: "$300 - $600"
+          
         },
         {
           name: t("Standard Package"),
           description: t("UI/UX design for a multi-page application with interactive elements."),
-          price: "$600 - $1200"
+          
         },
         {
           name: t("Premium Package"),
           description: t("Comprehensive UI/UX design with user research, wireframes, prototypes, and usability testing."),
-          price: "$1200+"
+          
         }
       ]
     }
@@ -94,7 +94,7 @@ export const Services = () => {
                   <div key={pkgIndex} className="package-card">
                     <h5>{pkg.name}</h5>
                     <p>{pkg.description}</p>
-                    <p className="package-price">{pkg.price}</p>
+                    
                   </div>
                 ))}
               </div>
