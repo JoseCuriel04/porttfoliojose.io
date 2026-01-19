@@ -1,73 +1,54 @@
-/* Contact Section */
 .contact-form {
-    max-width: 700px;
-    margin: 0 auto;
+  max-width: 600px;
+  margin: 0 auto 30px;
 }
 
 .form-group {
-    margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .form-group input,
 .form-group textarea {
-    width: 100%;
-    padding: 15px 20px;
-    background: var(--bg-card);
-    border: 1px solid rgba(85, 230, 165, 0.1);
-    border-radius: 10px;
-    color: var(--text-white);
-    font-family: inherit;
-    font-size: 16px;
-    transition: border-color 0.3s;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-    outline: none;
-    border-color: var(--primary-color);
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgba(85, 230, 165, 0.2);
+  border-radius: 8px;
+  background: var(--bg-card);
+  color: var(--text-white);
+  font-family: inherit;
 }
 
 .form-group textarea {
-    resize: vertical;
-    min-height: 150px;
+  min-height: 150px;
+  resize: vertical;
 }
 
-.contact-info {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 60px;
-    flex-wrap: wrap;
+.btn {
+  padding: 12px 24px;
+  background: var(--primary-color);
+  color: var(--bg-dark);
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
-.contact-item {
-    display: flex;
-    align-items: center;
-    gap: 15px;
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(85, 230, 165, 0.3);
 }
 
-.contact-item i {
-    font-size: 24px;
-    color: var(--primary-color);
+.btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
 }
 
-.contact-item a {
-    color: var(--text-light);
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.contact-item a:hover {
-    color: var(--primary-color);
-}
-
-/* Estilos para los mensajes de alerta */
 .alert {
-  padding: 15px 20px;
-  border-radius: 10px;
+  padding: 15px;
+  border-radius: 8px;
   margin-bottom: 20px;
   text-align: center;
-  animation: fadeIn 0.5s ease-in-out;
 }
 
 .alert.success {
@@ -82,19 +63,61 @@
   color: #ff4d4d;
 }
 
-/* Animación para los mensajes */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+/* Estilos para el botón flotante de WhatsApp */
+.whatsapp-float-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.whatsapp-float-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-float-icon {
+  font-size: 30px;
+}
+
+.whatsapp-tooltip {
+  position: absolute;
+  left: -150px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.whatsapp-float-button:hover .whatsapp-tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 768px) {
+  .whatsapp-tooltip {
+    display: none;
   }
 }
 
-/* Estilos para el loading */
 .loading {
   display: inline-block;
   width: 20px;

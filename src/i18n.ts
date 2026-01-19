@@ -93,8 +93,10 @@ const resources = {
       "Your Message": "Your Message",
       "Send Message": "Send Message",
 
+      "Contact me on WhatsApp": "Contact me on WhatsApp",
+
       // Footer
-      "All rights reserved": "All rights reserved"
+      "All rights reserved 2025": "All rights reserved 2025"
     }
   },
   es: {
@@ -188,8 +190,10 @@ const resources = {
       "Your Message": "Tu Mensaje",
       "Send Message": "Enviar Mensaje",
 
+      "Contact me on WhatsApp": "Contáctame por WhatsApp",
+
       // Footer
-      "All rights reserved": "Todos los derechos reservados"
+      "All rights reserved 2025": "Todos los derechos reservados 2025"
     }
   }
 };

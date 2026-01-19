@@ -24,7 +24,7 @@ function App() {
       <GitHubStats />
       <Contact />
       <Footer />
-
+      
     </>
   );
 }

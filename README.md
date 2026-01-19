@@ -1,149 +1,160 @@
 # 🚀 Portafolio de José Luis Curiel López
 
-**Desarrollador de Software | Estudiante de Ingeniería en Sistemas Computacionales | Apasionado por la Tecnología**
+**Desarrollador de Software \| Estudiante de Ingeniería en Sistemas
+Computacionales \| Apasionado por la Tecnología**
 
-📧 [joselcl04@gmail.com](mailto:joselcl04@gmail.com)  
-🔗 [LinkedIn](https://linkedin.com/in/jose-luis-curiel)  
-🌐 [Visita mi portafolio](https://porttfoliojose-io.vercel.app)
+📧 <joselcl04@gmail.com>\
+🔗 [LinkedIn](https://linkedin.com/in/jose-luis-curiel)\
+🌐 [Visita mi portafolio](https://porttfoliojose-io.vercel.app)\
+📱 [Contáctame por
+WhatsApp](https://wa.me/527752026535?text=Hola%20José%20Luis,%20me%20gustaría%20contactarte%20desde%20tu%20portafolio)
 
----
+------------------------------------------------------------------------
 
 ## 📌 Descripción del Proyecto
 
-Este es mi portafolio personal donde muestro mis habilidades, proyectos, certificaciones y servicios como desarrollador de software.  
-El sitio está construido con tecnologías modernas para ofrecer una experiencia interactiva y totalmente responsiva.
+Este es mi portafolio personal donde muestro mis habilidades, proyectos,
+certificaciones y servicios como desarrollador de software.\
+El sitio está construido con tecnologías modernas para ofrecer una
+experiencia interactiva y totalmente responsiva.
 
----
+------------------------------------------------------------------------
 
 ## 🛠 Tecnologías Utilizadas
 
 ### Frontend
-- **React.js** (TypeScript)
-- **HTML5** & **CSS3**
-- **Framer Motion** (Animaciones)
-- **i18next** (Traducción multilingüe)
-- **React Icons** (Iconos vectoriales)
+
+-   React.js (TypeScript)
+-   HTML5 & CSS3
+-   Framer Motion
+-   i18next
+-   React Icons
 
 ### Estilo y Diseño
-- **CSS Modules** (Estilos modulares)
-- **Responsive Design** (Adaptable a todos los dispositivos)
-- **Dark/Light Mode** (Modo oscuro/claro)
+
+-   CSS Modules
+-   Responsive Design
+-   Dark / Light Mode
 
 ### Herramientas y APIs
-- **GitHub API** (Estadísticas y repositorios)
-- **FormSubmit** (Formulario de contacto)
-- **React Particles** (Efectos visuales)
 
----
+-   GitHub API
+-   FormSubmit
+-   React Particles
+
+------------------------------------------------------------------------
 
 ## 📂 Estructura del Proyecto
-```
+
+``` text
 portafolio/
-├── public/                  # Archivos estáticos
+├── public/
 ├── src/
-│   ├── assets/              # Imágenes y recursos
-│   ├── components/          # Componentes de React
-│   │   ├── Certifications/  # Sección de certificaciones
-│   │   ├── Contact/         # Formulario de contacto
-│   │   ├── GitHubStats/     # Estadísticas de GitHub
-│   │   ├── Hero/            # Sección principal
-│   │   ├── NavBar/          # Barra de navegación
-│   │   ├── Projects/        # Proyectos destacados
-│   │   ├── Services/        # Servicios ofrecidos
-│   │   ├── Skills/          # Habilidades técnicas
-│   │   └── ToolsIUse/       # Herramientas que uso
-│   ├── App.css              # Estilos globales
-│   ├── App.tsx              # Componente principal
-│   ├── index.tsx            # Punto de entrada
-│   └── i18n.ts              # Configuración de traducciones
-├── package.json             # Dependencias
-└── README.md                # Este archivo
+│   ├── assets/
+│   ├── components/
+│   │   ├── Certifications/
+│   │   ├── Contact/
+│   │   ├── GitHubStats/
+│   │   ├── Hero/
+│   │   ├── NavBar/
+│   │   ├── Projects/
+│   │   ├── Services/
+│   │   ├── Skills/
+│   │   └── ToolsIUse/
+│   ├── App.css
+│   ├── App.tsx
+│   ├── index.tsx
+│   └── i18n.ts
+├── package.json
+└── README.md
 ```
 
----
+------------------------------------------------------------------------
 
 ## 💻 Instalación y Ejecución
 
 ### Requisitos previos
-- Node.js (v16 o superior)
-- npm o yarn
+
+-   Node.js v16 o superior
+-   npm o yarn
 
 ### Instalación
-```bash
-# Clonar el repositorio
+
+``` bash
 git clone https://github.com/JoseCuriel04/portafolio.git
-
-# Navegar al directorio del proyecto
 cd portafolio
-
-# Instalar las dependencias
 npm install
-# o
-yarn install
-
-# Ejecutar en modo desarrollo
 npm start
-# o
-yarn start
 ```
 
-Abre tu navegador y visita:  
-👉 **http://localhost:3000**
+Abre tu navegador en: http://localhost:3000
 
----
+------------------------------------------------------------------------
 
 ## 🎨 Características Principales
 
-✅ Diseño Responsivo: Adaptable a móviles, tablets y escritorio  
-✅ Multilingüe: Soporte para inglés y español  
-✅ Sección de Certificaciones: Con enlaces verificables  
-✅ Portafolio de Proyectos: Con demostraciones interactivas  
-✅ Servicios Profesionales: Desarrollo web, móvil y diseño UI/UX  
-✅ Formulario de Contacto: Validación y feedback inmediato  
-✅ Estadísticas de GitHub: Contribuciones y lenguajes más usados  
-✅ Modo Oscuro/Claro: Alternancia instantánea  
-✅ Animaciones Suaves: Transiciones elegantes  
+-   Diseño responsivo
+-   Soporte multilingüe (ES / EN)
+-   Certificaciones verificables
+-   Portafolio de proyectos
+-   Servicios profesionales
+-   Formulario de contacto
+-   Estadísticas de GitHub
+-   Modo oscuro / claro
+-   Animaciones suaves
+-   Botón de WhatsApp
 
----
+------------------------------------------------------------------------
 
 ## 📜 Certificaciones
 
-| Certificación | Institución | Año |
-|----------------|--------------|-----|
-| Administrador de Bases de Datos | MySQL | 2023 |
-| Cómputo Básico | Microsoft | 2022 |
-| Desarrollador Front-end | freeCodeCamp | 2023 |
-| Introducción a la Programación | Cisco NetAcad | 2022 |
-| Python 101 for Data Science | DataCamp | 2023 |
-| Fundamentos de Python 1 | Cisco NetAcad | 2023 |
-| CCNA: Enterprise Networking | Cisco | 2023 |
-| CCNA: Switching, Routing | Cisco | 2023 |
-| CCNA: Introduction to Networks | Cisco | 2023 |
-| Fortinet Certified Fundamentals | Fortinet | 2023 |
+  Certificación                     Institución     Año
+  --------------------------------- --------------- ------
+  Administrador de Bases de Datos   MySQL           2023
+  Cómputo Básico                    Microsoft       2022
+  Desarrollador Front-end           freeCodeCamp    2023
+  Introducción a la Programación    Cisco NetAcad   2022
+  Python 101 for Data Science       DataCamp        2023
+  Fundamentos de Python 1           Cisco NetAcad   2023
+  CCNA: Enterprise Networking       Cisco           2023
+  CCNA: Switching, Routing          Cisco           2023
+  CCNA: Introduction to Networks    Cisco           2023
+  Fortinet Certified Fundamentals   Fortinet        2023
 
----
+------------------------------------------------------------------------
 
 ## 💼 Servicios Profesionales
 
-Ofrezco los siguientes servicios de desarrollo:
+### 🌐 Desarrollo Web
 
-- 🌐 **Desarrollo Web**
-- 📱 **Desarrollo Móvil**
-- 🎨 **Diseño UI/UX**
+-   Básico: \$500 -- \$1000
+-   Estándar: \$1000 -- \$2500
+-   Premium: \$2500+
 
----
+### 📱 Desarrollo Móvil
+
+-   Básico: \$800 -- \$1500
+-   Avanzado: \$1500 -- \$3000
+-   Completo: \$3000+
+
+### 🎨 Diseño UI/UX
+
+-   Básico: \$300 -- \$600
+-   Intermedio: \$600 -- \$1200
+-   Completo: \$1200+
+
+------------------------------------------------------------------------
 
 ## 📬 Contacto
 
-¿Te gustaría trabajar conmigo o tienes alguna pregunta? ¡No dudes en contactarme!  
+📧 Email: joselcl04@gmail.com\
+🔗 LinkedIn: https://linkedin.com/in/jose-luis-curiel\
+🐙 GitHub: https://github.com/JoseCuriel04\
+📱 WhatsApp: https://wa.me/527752026535
 
-📧 **Email:** [joselcl04@gmail.com](mailto:joselcl04@gmail.com)  
-🔗 **LinkedIn:** [linkedin.com/in/jose-luis-curiel](https://linkedin.com/in/jose-luis-curiel)  
-🐙 **GitHub:** [github.com/JoseCuriel04](https://github.com/JoseCuriel04)
+------------------------------------------------------------------------
 
----
+## 📄 Licencia
 
-📄 **Licencia**  
-Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
-
+Este proyecto está bajo la licencia MIT.\
 © 2025 José Luis Curiel López. Todos los derechos reservados.
