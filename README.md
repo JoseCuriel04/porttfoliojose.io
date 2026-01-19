@@ -127,21 +127,21 @@ Abre tu navegador en: http://localhost:3000
 
 ### 🌐 Desarrollo Web
 
--   Básico: \$500 -- \$1000
--   Estándar: \$1000 -- \$2500
--   Premium: \$2500+
+-   Básico
+-   Estándar 
+-   Premium 
 
 ### 📱 Desarrollo Móvil
 
--   Básico: \$800 -- \$1500
--   Avanzado: \$1500 -- \$3000
--   Completo: \$3000+
+-   Básico 
+-   Avanzado
+-   Completo
 
 ### 🎨 Diseño UI/UX
 
--   Básico: \$300 -- \$600
--   Intermedio: \$600 -- \$1200
--   Completo: \$1200+
+-   Básico
+-   Intermedio
+-   Completo
 
 ------------------------------------------------------------------------
 
